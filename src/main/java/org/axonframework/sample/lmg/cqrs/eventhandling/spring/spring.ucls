@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.DefaultSQSMessageConverter" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/DefaultSQSMessageConverter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="302" x="-19" y="35"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.EventPublicationFailedException" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/EventPublicationFailedException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="228" x="761" y="223"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.PackageRoutingKeyResolver" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/PackageRoutingKeyResolver.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="223" x="-19" y="129"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.RoutingKeyResolver" 
+    project="demo" file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/RoutingKeyResolver.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="245" x="242" y="122"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.SQSMessage" project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/SQSMessage.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="239" x="-46" y="218"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.SQSMessageConverter" 
+    project="demo" file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/SQSMessageConverter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="307" x="401" y="18"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.legacy.EventMessageReader" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/legacy/EventMessageReader.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="254" x="96" y="410"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="8" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.legacy.EventMessageType" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/legacy/EventMessageType.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="254" x="206" y="213"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="9" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.legacy.EventMessageWriter" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/legacy/EventMessageWriter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="254" x="136" y="312"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" 
+    name="org.axonframework.sample.lmg.cqrs.eventhandling.legacy.JavaSerializationSQSMessageConverter" project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/legacy/JavaSerializationSQSMessageConverter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="75" width="254" x="665" y="105"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.spring.AWSCredentialProviderLMG" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/spring/AWSCredentialProviderLMG.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="362" x="692" y="326"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.spring.clientConfigurationLMG" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/spring/clientConfigurationLMG.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="261" x="720" y="504"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.spring.coreConfiguration" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/spring/coreConfiguration.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="251" x="402" y="432"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" 
+    name="org.axonframework.sample.lmg.cqrs.eventhandling.spring.corePropertiesConfiguration" project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/spring/corePropertiesConfiguration.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="251" x="241" y="559"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="org.axonframework.sample.lmg.cqrs.eventhandling.spring.SpringSQSPublisher" 
+    project="demo" 
+    file="/demo/src/main/java/org/axonframework/sample/lmg/cqrs/eventhandling/spring/SpringSQSPublisher.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="251" x="389" y="266"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="16">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="17" name="routingKeyResolver"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="20" name="coreProperties"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="23" name="routingKeyResolver"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="25">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="27">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="28" name="AWSPlmg"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="31" name="LaConfig"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="33">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="34">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="35" name="routingKeyResolver"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="38" name="ccLmg"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="41" name="messageConverter"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="44" name="cCLMG"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
